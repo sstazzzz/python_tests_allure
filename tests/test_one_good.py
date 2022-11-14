@@ -1,6 +1,8 @@
 import allure
 import pytest
 
+#это Тест1
+
 
 @allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.parametrize('first_value, second_value', [('order', 'order')])
